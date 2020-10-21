@@ -14,8 +14,3 @@
 ---
 
 ### Посмотреть результат на [github-pages](https://sden4.github.io/66bit_test-work/)
-
-
-//- github pages -//
-//- git add dist && git commit -m "Initial dist subtree commit"
-//- git subtree push --prefix dist origin gh-pages
