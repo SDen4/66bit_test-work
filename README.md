@@ -9,3 +9,11 @@
 Допустимо подключать любые внешние библиотеки и фреймеворки.
 Страница должна корректно функционировать во всех современных браузерах.
 
+
+### Watch on [github-pages](https://sden4.github.io/66bit_test-work/)
+
+
+
+//- github pages -//
+//- git add dist && git commit -m "Initial dist subtree commit"
+//- git subtree push --prefix dist origin gh-pages
