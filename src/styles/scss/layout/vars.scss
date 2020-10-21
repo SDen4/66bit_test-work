@@ -1,11 +1,14 @@
 //colors
-$main-color: red;
-$default-color: blue;
+    $mainBGColor: white;
+    $underliveColor: #222;
+    $textColor: blue;
+
+//fonts
+    $mainFont: 'Open Sans', Helvetica, sans-serif;
 
 //resolutions
-$desktop: 1280px;
-$laptop: 980px;
-$tablet: 768px;
-$smartphone: 480px;
-$phone: 320px;
-
+    $desktop: 1280px;
+    $laptop: 980px;
+    $tablet: 768px;
+    $smartphone: 480px;
+    $phone: 320px;
