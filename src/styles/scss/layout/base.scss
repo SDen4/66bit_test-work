@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body, ul, p, h1, h2, h3, h4, h5, h6 {
+body, ul, p, input {
   margin: 0;
   padding: 0;
 }
@@ -24,25 +24,6 @@ body {
   align-items: center;
 }
 
-button {
-  border: 0;
-  cursor: pointer;
-}
-
 ul {
   list-style: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-}
-
-button[type="button"] {
-  cursor: pointer;
-  background-color: transparent;
-}
-
-a {
-  color: inherit;
-  cursor: pointer;
 }

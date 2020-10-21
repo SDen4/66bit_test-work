@@ -1,4 +1,4 @@
-const wrapper = document.querySelector('.word__wrapper');
+const list = document.querySelector('.word__list');
 
 window.addEventListener("keydown", function (e) {
 
@@ -10,8 +10,8 @@ window.addEventListener("keydown", function (e) {
     { return };
 
     //creation new element for each letter
-    let elem = document.createElement('div');
+    let elem = document.createElement('li');
     elem.className = "word__letter";
     elem.textContent = e.key;
-    wrapper.append(elem);
+    list.append(elem);
 });
