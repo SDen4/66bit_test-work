@@ -11,7 +11,7 @@
 
 .word__wrapper,
 .word__underline {
-    width: 10%;
+    width: 60px;
 }
 
 .word__wrapper {
@@ -27,17 +27,14 @@
 .word__underline {
     height: 10px;
     background-color: $underliveColor;
-    opacity: 0;
-    animation: .5s linear infinite alternate blink;
+    animation: blink .7s steps(2, start) infinite;
+    border-radius: 2px;
 }
 
+//animation of cursor blinking
 @keyframes blink {
-    from {
-        opacity: 0
-    }
-
     to {
-        opacity: 1
+        visibility: hidden
     }
 }
 
@@ -50,9 +47,10 @@
     }
 
     // fade-in effect, duration 3 sec
-    animation: 3s linear fade-in;
+    animation: $animationDuration linear fade-in;
 }
 
+//animation of lettes (fade-in)
 @keyframes fade-in {
     from {
         opacity: 0
