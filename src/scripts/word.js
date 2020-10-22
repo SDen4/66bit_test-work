@@ -6,7 +6,8 @@ window.addEventListener("keydown", function (e) {
     if(!e.key.match(/[A-Za-zА-Яа-яёЁ]/) || 
         e.key.match(/F[1-9]/g) || 
         e.key.match(/[:cntrl:]/) || 
-        e.key.match(/[:blank:]/)) 
+        e.key.match(/[:blank:]/) ||
+        e.key === 'Home')
     { return };
 
     //creation new element for each letter
